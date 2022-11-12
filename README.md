@@ -9,7 +9,10 @@ This project analyzes car accident data from the United States in 2020 and 2021 
 The following areas were explored and compared with the relative frequency of car accidents by location across the United States:
 
 -Median Income by County
+
 -Median Age by County
+
 -Time of Day/Year
+
 -Weather
 
