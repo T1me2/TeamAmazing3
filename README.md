@@ -2,7 +2,7 @@
 
 ###### Jack Miller, Madina Zhaksylyk, Juan Marin, Glen Dagger
 
-###### Project Description
+# Project Description
 
 This project analyzes car accident data from the United States in 2020 and 2021 in an attempt to identify possible relationships with various factors. The data used was primarily contained within a csv file found on Kaggle called "US Accidents (2016-2021), as well as API calls to the Census and Gmaps APIs.
 
