@@ -79,6 +79,7 @@ ___
 ## Time of Day/Year
 
 > *Is the time of year related to the amount of car accidents in the United States?*
+
 > *Do certain holidays have higher amounts of car accidents?*
 
 We started with the Kaggle car accident data from 2016-2021. Originally, we tried using 2020 to match the same year that was used for the income and age questions. But after further investigation, we noticed that the 2020 data had some limitations in the amount of car accidents for certain months, specifically the fourth of July had no car accidents. Thus, we chose 2021 to answer this specific question. 
