@@ -80,8 +80,6 @@ ___
 
 > *Is the time of year related to the amount of car accidents in the United States?*
 
-> *Do certain holidays have higher amounts of car accidents?*
-
 We started with the Kaggle car accident data from 2016-2021. Originally, we tried using 2020 to match the same year that was used for the income and age questions. But after further investigation, we noticed that the 2020 data had some limitations in the amount of car accidents for certain months, specifically the fourth of July had no car accidents. Thus, we chose 2021 to answer this specific question. 
 
 In order to get the dataset ready for the analysis we added a months column that would take into account the month of the accident. To create this column, only the two numbers that represented the month  from the “start time” column were taken out in order to create this new column. Afterwards, I was able to create a line graph that represented the trend of car accidents throughout the year according to months. 
@@ -95,6 +93,8 @@ The graph showed that the spring time months see the least amount of accidents a
 
 <br>
 
+> *Do certain holidays have higher amounts of car accidents?*
+
 In order to answer this question we had to create buckets for each holiday. Any accident that occurred on 12/24 was Christmas, any accident that occurred on 10/31 was halloween, and etc. So after those buckets were created, we created a new dataframe that only had car accidents by holidays and that was then graphs into a bar graph in order to accurately compare the results between the 6 holidays. 
 
 ![Accidents by Holiday bar graph](Images/accidentsbyholidaybar.png)
@@ -103,9 +103,19 @@ ___
 ## Weather
 > *What weather categories have the highest amount of car accidents?*
 
-> *Do more car accidents happen at night or during the day?*
+In order to answer this question we used car accident data from Kaggle for the years 2016-2021. We narrowed the data down to the year 2021 to examine this question more closely. First to analize weather categories that have more car accidents we cleaned our data, grouping the weather into 7 categories: fair, cloudy, rainy, foggy, snowy, windy and other. From the bar chart that we created we can tell that most car accidents happen in fair weather conditions. This is likely due to the fact that most days in the year have fair weather conditions. However, there are bad weather conditions that cause car accidents. The leading bad weather condition that causes car accidents is cloudy with a steep drop off to rainy, then snowy, then windy and lastly others with few car accidents. This indicates that avoiding travel when the weather is cloudy, when possible, is the best way to avoid a car accident when the weather conditions are not fair.
 
 ![Accidents by Weather Category bar graph](Images/accidentsbyweathertypebar.png)
 
+Further, we analyzed the relationship between car accidents and temperature(F). From the bar chart provided below, we can tell that most car accidents occur between 60F to 90F. There are more accidents at temperatures 30-60F and fewer at other temperatures.
 
-![Accidents by Weather Category bar graph](Images/accidentsdaynightpie.png)
+![Accidents by Temperature](Images/accidentsdaynightpie.png)
+
+<br>
+
+> *Do more car accidents happen at night or during the day?*
+
+To analyze this question we used our data on car accidents in 2021 and visualized it in a pie chart. From the graph shown below, we can tell that most car accidents happen in day time 65.8%. The other 34.2% of car accidents happen at night. This might be due to there being more cars on the road during the daytime than at night. Most people are driving to work during the daytime as well and may feel more rushed than people who drive at night.
+
+![Accidents by Weather Category bar graph](Images/temp.png
+
