@@ -98,6 +98,22 @@ In order to answer this question we had to create buckets for each holiday. Any 
 
 This graph was able to show us that Christmas had the most amount of car accidents compared to all the other holidays. It doubled the amount of car accidents for all the other holidays. Therefore, this may suggest that US drivers should be most careful when driving during winter months and especially during Christmas since the highest number of car accidents happen during those time periods.
 
+##### Weather
+
+#### What weather categories have the highest amount of car accidents?
+
+#### Do more car accidents happen at night or during the day?
+
+In order to answer this question we used data from Kaggle for the car accident year of 2016-2021. We narrowed it down to the year 2021 to examine this question more closely. First to analize weather categories that has more car accidents we cleaned our data grouping them into 7 categories sush as fair, cloudy, rainy, foggy, snowy, windy and other. From the bar chart that we created we can tell that most car accidents happen on fair weather condition. However, there are weather conditions that cause car accidents. The leading weather condition that causes car accidents is cloudy then rainy, snowy, and others with few car accidents.    
+
+![image](https://user-images.githubusercontent.com/111404552/201553992-a205337c-4682-4fba-b008-8a863f17c8fe.png)
+
+Further, we analyzed the relationship between car accidents and temperature(F). From the bar chart provided below, we can tell that most car accidents occur between 60F to 90F. There are more accidents at temperatures 30-60F and fewer at other temperatures.
 
 
+![image](https://user-images.githubusercontent.com/111404552/201556876-afd54a60-53e3-4fa4-92d2-2d4bc1f91129.png)
+
+
+#### Do more car accidents happen at night or during the day?
+To analyze this question we used our data on car accidents in 2021 and visualized it in a pie chart. From the graph shown below, we can tell that most car accidents happen in day time 65.8%. Other 34.2% of car accidents happen at night. This might be because there are more cars in the daytime than at night, also there is less traffic at night than in the daytime. 
 
