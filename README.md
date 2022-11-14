@@ -11,7 +11,7 @@ The most recent census data available was from 2020, so all questions requiring 
 
 Due to missing information in the dataset that was discovered later (when observing unrealistically low accident counts during the summer months, with a notable lack of any accident data for July 4th in particular), questions concerning weather and time were explored using the more complete 2021 car accident data.
 
-In order to clean and organize the data, the original dataset (consisting of data from over 2.8 million accidents between 2016 and 2021) was read into the jupyter notebook using Pandas. We then each filtered the data by isolating the rows from the particular year of interest and removing irrelevant columns. All census information was retrieved using Census.gov API calls. To merge county data from the census with the filtered data from the original csv file, we had to use a dictionary of all U.S. state names to convert the names to abbreviations. All weather data was included in the original dataset. 
+In order to clean and organize the data, the original dataset (consisting of data from over 2.8 million accidents between 2016 and 2021) was read into the jupyter notebook using Pandas. We then each filtered the data by isolating the rows from the particular year of interest and removing irrelevant columns. All census information was retrieved using Census.gov API calls. The dataframe was grouped by "County" and "State" to get a count of the number of accidents within each county. To merge county data from the census with the filtered data from the original csv file, we had to use a dictionary of all U.S. state names to convert the names to abbreviations. All weather data used was included in the original dataset. 
 
 To visualize the data, we used the following libraries:
 - [Matplotlib](https://matplotlib.org/stable/index.html)
@@ -19,16 +19,16 @@ To visualize the data, we used the following libraries:
 - [Plotly Express](https://plotly.com/python/plotly-express/)
 
 
-The following were our areas of focus and questions to guide our research:
+The following are our areas of focus and questions to guide our research:
 
-1. Median Income by County (2020)
+1. [Median Income by County (2020)](#median-income-by-county)
     - Does a county's median income correlate with the number of car accidents?
-2. Median Age by County (2020)
+2. [Median Age by County (2020)](#median-age-by-county)
     - Does the median age of a county correlate with the number of car accidents?
-3. Time of Year (2021)
+3. [Time of Year (2021)](#time-of-dayyear)
     - Is the time of year related to the amount of car accidents in the United States?
     - Do certain holidays have higher amounts of car accidents?
-4. Weather (2021)
+4. [Weather (2021)](#weather)
     - What weather categories have the highest amount of car accidents?
     - Do more car accidents happen at night or during the day?
 
@@ -40,7 +40,7 @@ The following were our areas of focus and questions to guide our research:
 ## Median Income by County
 > *Does a county's median income correlate with the number of car accidents?*
 
-In order to analyze the accident data by county, we read the csv file into a Jupyter Notebook using Pandas and filtered out columns with unnecessary data. We selected all rows with the year 2020 and grouped the data by “County” and “State” to count the number of accidents in each county. We then needed to find the population and median income of each county, which we accomplished through API calls to the Census.gov site. The number of accidents per 1000 people was calculated by dividing the accident count of each county by its population and multiplying that value by 1000. Once that was done, we were able to create a heat map that shows areas with a higher number of accidents per capita by county. 
+The number of accidents per 1000 people was calculated by dividing the accident count of each county (dataframe grouped by "County") by its population (from Census API) and multiplying that value by 1000. Once that was done, we were able to create a heat map that shows areas with a higher number of accidents per capita by county. 
 
 <br>
 
