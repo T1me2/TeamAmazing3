@@ -99,6 +99,7 @@ In order to answer this question we had to create buckets for each holiday. Any 
 
 ![Accidents by Holiday bar graph](Images/accidentsbyholidaybar.png)
 
+This graph was able to show us that Christmas had the most amount of car accidents compared to all the other holidays. It doubled the amount of car accidents for all the other holidays. Therefore, US citizens should be most careful when driving during winter months and especially during Christmas. 
 ___
 ## Weather
 > *What weather categories have the highest amount of car accidents?*
@@ -119,6 +120,3 @@ To analyze this question we used our data on car accidents in 2021 and visualize
 
 
 ![Accidents by Weather Category bar graph](Images/temp.png)
-
-
-This graph was able to show us that Christmas had the most amount of car accidents compared to all the other holidays. It doubled the amount of car accidents for all the other holidays. Therefore, US citizens should be most careful when driving during winter months and especially during Christmas. 
