@@ -99,6 +99,7 @@ In order to answer this question we had to create buckets for each holiday. Any 
 
 ![Accidents by Holiday bar graph](Images/accidentsbyholidaybar.png)
 
+This graph was able to show us that Christmas had the most amount of car accidents compared to all the other holidays. It doubled the amount of car accidents for all the other holidays. Therefore, US citizens should be most careful when driving during winter months and especially during Christmas. 
 ___
 ## Weather
 > *What weather categories have the highest amount of car accidents?*
@@ -109,7 +110,7 @@ In order to answer this question we used car accident data from Kaggle for the y
 
 Further, we analyzed the relationship between car accidents and temperature(F). From the bar chart provided below, we can tell that most car accidents occur between 60F to 90F. There are more accidents at temperatures 30-60F and fewer at other temperatures.
 
-![Accidents by Temperature](Images/accidentsdaynightpie.png)
+![Accidents by Temperature](Images/temp.png)
 
 <br>
 
@@ -117,5 +118,5 @@ Further, we analyzed the relationship between car accidents and temperature(F). 
 
 To analyze this question we used our data on car accidents in 2021 and visualized it in a pie chart. From the graph shown below, we can tell that most car accidents happen in day time 65.8%. The other 34.2% of car accidents happen at night. This might be due to there being more cars on the road during the daytime than at night. Most people are driving to work during the daytime as well and may feel more rushed than people who drive at night.
 
-![Accidents by Weather Category bar graph](Images/temp.png
 
+![Accidents by Weather Category bar graph](Images/accidentsdaynightpie.png)
