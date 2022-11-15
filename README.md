@@ -1,8 +1,8 @@
-# Team_Project
+### Team_Project
 
-# Jack Miller, Madina Zhaksylyk, Juan Marin, Glen Dagger
+##### Jack Miller, Madina Zhaksylyk, Juan Marin, Glen Dagger
 
-###### Project Description
+#### Project Description
 
 This project analyzes car accident data from the United States in 2020 and 2021 in an attempt to identify possible relationships with various factors. The data used was primarily contained within a csv file found on Kaggle called "US Accidents (2016-2021)", as well as through API calls to the Census API.
 
@@ -39,7 +39,7 @@ What weather categories have the highest amount of car accidents?
 Do more car accidents happen at night or during the day?
 
 
-###### Median Income by County
+#### Median Income by County
 Does a county's median income correlate with the number of car accidents?
 
 The number of accidents per 1000 people was calculated by dividing the accident count of each county (dataframe grouped by "County") by its population (from Census API) and multiplying that value by 1000. Once that was done, we were able to create a heat map that shows areas with a higher number of accidents per capita by county.
@@ -63,7 +63,7 @@ In order to answer the research question, we created a scatter plot of car accid
 
 Median income vs accidents per county
 
-###### Median Age by County
+#### Median Age by County
 Does the median age of a county correlate with the number of car accidents?
 
 To see if age had any impact, the median age per county was used as multiplier to the number of accidents per 1000 people in each county. A heat map was created to see how it visually changed compared to the heat map the shows the number of accidents per 1000 people. The idea behind using median age as a multiplier was that if the median age was would exaggerate higher aged counties, potentially changing the visualization. The results smoothed out the heatmap showing only counties in Oregon and California reached the higher ends of the range for this data, with the majority of counties falling into lower percentiles.
@@ -95,7 +95,7 @@ Accidents by Holiday bar graph
 
 This graph was able to show us that Christmas had the most amount of car accidents compared to all the other holidays. It doubled the amount of car accidents for all the other holidays. Therefore, US citizens should be most careful when driving during winter months and especially during Christmas.
 
-###### Weather
+#### Weather
 What weather categories have the highest amount of car accidents?
 
 In order to answer this question we used car accident data from Kaggle for the years 2016-2021. We narrowed the data down to the year 2021 to examine this question more closely. First to analize weather categories that have more car accidents we cleaned our data, grouping the weather into 7 categories: fair, cloudy, rainy, foggy, snowy, windy and other. From the bar chart that we created we can tell that most car accidents happen in fair weather conditions. This is likely due to the fact that most days in the year have fair weather conditions. However, there are bad weather conditions that cause car accidents. The leading bad weather condition that causes car accidents is cloudy with a steep drop off to rainy, then snowy, then windy and lastly others with few car accidents. This indicates that avoiding travel when the weather is cloudy, when possible, is the best way to avoid a car accident when the weather conditions are not fair.
